@@ -6,7 +6,7 @@
         char Cidade[20] = ("Rio de Janeiro");
         int Populacao = 6748000;
         float area = 1200.25;
-        float PIB = 300.50;
+        float PIB = 300.500000000;
         int numero = 30;
 
         printf("Estado: %c\n", Estado);
@@ -32,9 +32,9 @@
 
     float capita;
 
-    capita = (float)(Populacao / PIB);
+    capita = (float)(PIB / Populacao);
 
-    printf("PIB per Capita: %.2f reais\n", capita);
+    printf("PIB per Capita: %f reais\n", capita);
 
         return 0;
 
