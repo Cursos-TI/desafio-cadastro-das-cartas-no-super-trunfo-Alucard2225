@@ -26,7 +26,7 @@
         //Inicio do nivel aventureiro
     float densidade;
 
-    densidade = (float)(Populacao / Area);
+    densidade = (float)(Populacao / area);
 
     printf("Densidade Populacional: %.2f hab/km²\n", densidade);
 
