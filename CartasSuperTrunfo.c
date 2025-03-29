@@ -23,6 +23,19 @@ int main() {
 
     printf("Número de Pontos Turisticos: %d\n", numero);
 
+    //Inicio do nivel aventureiro
+    float densidade;
+
+    densidade = (float)(Populacao / Area);
+
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade);
+
+    float capita;
+
+    capita = (float)(Populacao / PIB);
+
+    printf("PIB per Capita: %.2f reais\n", capita);
+
 
     return 0;
 }
