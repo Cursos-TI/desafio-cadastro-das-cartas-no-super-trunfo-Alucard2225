@@ -87,6 +87,13 @@ int main() {
     resultado7 = poder1 > poder2;
    
     printf("Comparação de Cartas:\n");
+    printf("População: Carta 1 venceu %d\n", resultado1);
+    printf("Área: Carta 1 venceu %d\n", resultado2);
+    printf("PIB: Carta 1 venceu %d\n", resultado3);
+    printf("Pontos Turísticos: Carta 1 venceu %d\n", resultado4);
+    printf("Densidade Populacional: Carta 2 venceu %d\n", resultado5);
+    printf("PIB per Capita: Carta 1 venceu %d\n", resultado6);
+    printf("Super Poder: Carta 1 venceu %d\n", resultado7);
     
     
     return 0;
